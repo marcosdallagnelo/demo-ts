@@ -1,0 +1,28 @@
+{
+  "name": "demo-ts",
+  "version": "0.1.0",
+  "description": "Projeto de estudo para demonstrar o uso de Typescript e jasmine, executar o build e testes via gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-ts \"spec/**/*.spec.ts\""
+  },
+  "keywords": [
+    "node",
+    "jasmine",
+    "gulp"
+  ],
+  "author": "Marcos José Dallagnelo",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jasmine": "^2.8.3",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-jasmine": "^3.0.0",
+    "gulp-typescript": "^3.2.3",
+    "jasmine-spec-reporter": "^4.2.1",
+    "jasmine-ts": "^0.2.1",
+    "run-sequence": "^2.2.1",
+    "typescript": "^2.6.2"
+  }
+}
